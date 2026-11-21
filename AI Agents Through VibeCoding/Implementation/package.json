@@ -1,0 +1,15 @@
+{
+  "name": "intelligent-test-plan",
+  "version": "1.0.0",
+  "description": "AI-Powered Jira Test Engineering Suite",
+  "scripts": {
+    "start": "node src/backend/src/server.js",
+    "server": "node src/backend/src/server.js",
+    "build": "cd src/frontend && npm install && npm run build",
+    "dev": "cd src/frontend && npm run dev"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
